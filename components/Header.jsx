@@ -10,7 +10,6 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { BsCart } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
-import Image from 'next/image'
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -43,7 +42,7 @@ const Header = () => {
       sticky top-0 transition-transform duration-300 ${show}`}>
       <Wrapper className='h-[60px] flex justify-between items-center'>
         <Link href="/">
-          <Image src="/logo.png" className='w-[40px] md:w-[60px]' alt='Logo' />
+          <img src="/logo.png" className='w-[40px] md:w-[60px]' alt='Logo' />
         </Link>
         <Menu
           showCatMenu={setShowCatMenu}

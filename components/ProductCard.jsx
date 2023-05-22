@@ -1,11 +1,10 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 export default function ProductCard() {
   return (
     <Link href="/product/1" className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
     >
-      <Image className='w-full' src='/products/pantalones.jpg' alt='Product image' />
+      <img className='w-full' src='/products/pantalones.jpg' alt='Product img' />
       <div className='p-4 text-black/[0.9]'>
         <h2 className='text-lg font-medium'>JEAN ULTRA SLIM LUPITA TIRO SUPER ALTO T</h2>
         <div className='flex items-center text-black/[0.5]'>

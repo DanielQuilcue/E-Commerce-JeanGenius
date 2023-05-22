@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/image";
+import img from "next/img";
 import Link from "next/link";
 import Wrapper from "@/components/Wrapper";
 import CartItem from "@/components/CartItem";

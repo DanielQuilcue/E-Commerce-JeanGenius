@@ -1,14 +1,13 @@
-import Image from 'next/image'
 import React from 'react'
 
 const CartItem = () => {
   return (
     <div className='flex py-5 gap-3 md:gap-5 border-b'>
-    {/* Image start */}
+    {/* img start */}
       <div className='shrink-0 aspect-square w-[50px] md:w-[120px]'>
-        <Image  src='/category/pro1.png' alt='Imagen categoría'/>
+        <img  src='/category/pro1.png' alt='imgn categoría'/>
       </div>
-      {/* Image end */}
+      {/* img end */}
       <div className='w-full flex flex-col'>
       <div className="flex flex-col md:flex-row justify-between">
           {/* Product title */}

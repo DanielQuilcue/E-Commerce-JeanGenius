@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 export const Footer = () => {
   return (
@@ -11,7 +10,7 @@ export const Footer = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <Image src='/logo.png' className="w-8 text-deep-purple-accent-400" alt='Logo' />
+            <img src='/logo.png' className="w-8 text-deep-purple-accent-400" alt='Logo' />
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
               JeanGenius
             </span>
