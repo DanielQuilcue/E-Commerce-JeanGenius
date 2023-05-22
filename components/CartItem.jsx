@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const CartItem = () => {
@@ -5,7 +6,7 @@ const CartItem = () => {
     <div className='flex py-5 gap-3 md:gap-5 border-b'>
     {/* Image start */}
       <div className='shrink-0 aspect-square w-[50px] md:w-[120px]'>
-        <img  src='/category/pro1.png'/>
+        <Image  src='/category/pro1.png' alt='Imagen categoría'/>
       </div>
       {/* Image end */}
       <div className='w-full flex flex-col'>

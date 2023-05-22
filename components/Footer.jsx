@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 export const Footer = () => {
   return (
@@ -10,17 +11,17 @@ export const Footer = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <img src='/logo.png' className="w-8 text-deep-purple-accent-400" alt='Logo' />
+            <Image src='/logo.png' className="w-8 text-deep-purple-accent-400" alt='Logo' />
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
               JeanGenius
             </span>
           </a>
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm text-gray-800">
-            "¡Bienvenido a nuestra tienda de jeans, donde la moda y la comodidad se encuentran! Somos un emprendimiento apasionado por ofrecerte los mejores jeans para lucir con estilo en cualquier ocasión.
+              "¡Bienvenido a nuestra tienda de jeans, donde la moda y la comodidad se encuentran! Somos un emprendimiento apasionado por ofrecerte los mejores jeans para lucir con estilo en cualquier ocasión.
             </p>
             <p className="mt-3 text-sm text-gray-800">
-            Nuestros jeans están confeccionados con materiales de alta calidad y diseños modernos que se adaptan a tu cuerpo, realzando tus curvas y brindando un ajuste perfecto.!"
+              Nuestros jeans están confeccionados con materiales de alta calidad y diseños modernos que se adaptan a tu cuerpo, realzando tus curvas y brindando un ajuste perfecto.!"
             </p>
           </div>
         </div>
@@ -170,7 +171,7 @@ export const Footer = () => {
             </a>
           </div>
           <p className="mt-4 text-sm text-gray-800">
-          Únete a nuestra comunidad de amantes del los Jeans y encuentra el par perfecto para lucir a la moda
+            Únete a nuestra comunidad de amantes del los Jeans y encuentra el par perfecto para lucir a la moda
           </p>
         </div>
       </div>
