@@ -10,7 +10,7 @@ export const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
   const [menuItems, setMenuItems] = useState([
     { id: 1, name: "Inicio", url: "/" },
     { id: 3, name: "Categorías", subMenu: true },
-    { id: 2, name: "Somos", url: "/about" },
+    { id: 2, name: "Somos", url: "/somos" },
     { id: 4, name: "Contacto", url: "/contact" },
   ]);
   const subMenuData = [

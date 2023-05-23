@@ -55,7 +55,7 @@ export const Footer = () => {
           </div>
           <div className="flex">
             <a
-              href="mailto:JeanGenius.@gmil.com"
+              href="mailto:JeanGenius.@gmail.com"
               aria-label="email"
               title="Correo"
               className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
@@ -75,7 +75,7 @@ export const Footer = () => {
                 />
               </svg>
 
-              <span className="flex-1 text-gray-700">JeanGenius.@gmil.com
+              <span className="flex-1 text-gray-700">JeanGenius.@gmail.com
               </span>
             </a>
           </div>
