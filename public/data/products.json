@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "name": "Cargo Drill Gris",
+    "image": "/products/CargoDrillGris.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },
+  {
+    "id": 2,
+    "name": "Cargo Militar",
+    "image": "/products/CargoMilitar.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },
+  {
+    "id": 3,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 4,
+    "name": "Cargo Drill",
+    "image": "/products/CargoDrill.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 5,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido2.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 6,
+    "name": "Cargo Drill",
+    "image": "/products/CargoDrill2.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 7,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido3.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 8,
+    "name": "Skinny Estampado Correa",
+    "image": "/products/SkinnyEstampadoCorrea.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 9,
+    "name": "Cargo Drill",
+    "image": "/products/CargoDrill4.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 10,
+    "name": "Skinny Dorado Pedrería",
+    "image": "/products/SkinnyDoradoPedrería.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 11,
+    "name": "Cargo Drill",
+    "image": "/products/CargoDrill5.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  }
+  ,{
+    "id": 12,
+    "name": "Skinny Negro Rotos",
+    "image": "/products/SkinnyNegroRotos.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 13,
+    "name": "Skinny Cargo Correa",
+    "image": "/products/SkinnyCargoCorrea.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 14,
+    "name": "Skinny",
+    "image": "/products/Skinny1.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 15,
+    "name": "Skinny",
+    "image": "/products/Skinny2.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 16,
+    "name": "Skinny",
+    "image": "/products/Skinny3.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 17,
+    "name": "Skinny",
+    "image": "/products/Skinny4.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 18,
+    "name": "Cargo",
+    "image": "/products/Cargo1.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 19,
+    "name": "Skinny",
+    "image": "/products/Skinny5.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 20,
+    "name": "Short",
+    "image": "/products/Short.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 21,
+    "name": "Skinny",
+    "image": "/products/Skinny6.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 22,
+    "name": "Skinny",
+    "image": "/products/Skinny7.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 23,
+    "name": "Skinny",
+    "image": "/products/Skinny8.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 24,
+    "name": "Jeans Licrado",
+    "image": "/products/JeansLicrado.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 25,
+    "name": "Jeans Licrado",
+    "image": "/products/JeansLicrado1.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 26,
+    "name": "Jeans Licrado",
+    "image": "/products/JeansLicrado2.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 27,
+    "name": "Skinny Bordado Pedrería",
+    "image": "/products/SkinnyBordadoPedrería.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 28,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido4.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 29,
+    "name": "Cargo Drill",
+    "image": "/products/CargoDrill6.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 30,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido5.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 31,
+    "name": "Boyfriend Pedrería",
+    "image": "/products/BoyfriendPedrería.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 32,
+    "name": "Skinny Chispeado",
+    "image": "/products/SkinnyChispeado.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 33,
+    "name": "Cargo Cuerina",
+    "image": "/products/CargoCuerina.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 34,
+    "name": "Cargo Rígido",
+    "image": "/products/CargoRígido6.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 35,
+    "name": "BSkinny Cargo Negro Drill",
+    "image": "/products/SkinnyCargoNegroDrill.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  },{
+    "id": 36,
+    "name": "Boyfriend Rígido",
+    "image": "/products/BoyfriendRígido.jpg",
+    "price": 169900,
+    "originalPrice": 200000,
+    "discount": 40
+  }
+]
