@@ -4,11 +4,7 @@
     "name": "Cargo Drill Gris",
     "gender": "Mujer",
     "image": "/products/CargoDrillGris.jpg",
-<<<<<<< HEAD
     "price": 70.000
-=======
-    "price": 70.000,
->>>>>>> f70a5e7cbffd403e4e7f070a4fe1ab35d2144dfb
   },
   {
     "id": 2,
