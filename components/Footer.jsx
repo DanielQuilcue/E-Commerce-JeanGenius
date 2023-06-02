@@ -11,9 +11,9 @@ export const Footer = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <img src='/logo.png' className="w-8 text-deep-purple-accent-400" alt='Logo' />
+            {/* <img src='/cositas/JW.svg' className="w-8 text-deep-purple-accent-400" alt='Busto' /> */}
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              JeanGenius
+            jwfashion
             </span>
           </Link>
           <div className="mt-6 lg:max-w-sm">
@@ -32,7 +32,7 @@ export const Footer = () => {
           <div className="flex">
             <a
               className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-              href="tel:850-123-5021"
+              href="tel:3187670260"
               aria-label="Our phone"
               title="Número celular"
             >
@@ -51,7 +51,7 @@ export const Footer = () => {
                 />
               </svg>
 
-              <span className="flex-1 text-gray-700">+57 3123456789</span>
+              <span className="flex-1 text-gray-700">+57 3187670260</span>
             </a>
           </div>
           <div className="flex">
@@ -76,11 +76,11 @@ export const Footer = () => {
                 />
               </svg>
 
-              <span className="flex-1 text-gray-700">JeanGenius.@gmail.com
+              <span className="flex-1 text-gray-700">Johisalexdiazrojas.@gmail.com
               </span>
             </a>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
             <a
               href="https://www.google.com/maps"
               target="_blank"
@@ -113,7 +113,7 @@ export const Footer = () => {
                 Soy una dirección
               </address>
             </a>
-          </div>
+          </div> */}
         </div>
         <div>
           <span className="text-base font-bold tracking-wide text-gray-900">
@@ -121,7 +121,7 @@ export const Footer = () => {
           </span>
           <div className="flex items-center mt-1 space-x-3">
             <a
-              href="/"
+              href="https://www.instagram.com/jywfashion/"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-pink-700/75"
@@ -141,7 +141,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.facebook.com/JohisFashion"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-blue-700/75"
@@ -161,7 +161,7 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://wa.me/3187670260"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:text-green-700/75"

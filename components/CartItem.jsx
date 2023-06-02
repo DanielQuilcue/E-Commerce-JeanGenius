@@ -19,7 +19,7 @@ const CartItem = () => {
           </div>
 
           <div className="text-md font-medium text-black/[0.5] hidden md:block">
-            Precio: <br></br>$ 169.900
+            Precio: <br></br>$ 70.000
           </div>
         </div>
         <div className='text-md font-medium text-black/[0.5] hidden md:block'>

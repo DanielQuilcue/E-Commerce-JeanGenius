@@ -11,14 +11,14 @@ function somos() {
           </h2>
           <div class="my-4 mx-auto w-12 h-2 border-4 border-[#0d9488]"></div>
           <div class="text-center text-gray-700 font-light">
-            Here are what some of our amazing customers are saying ...
+          Somos una pareja de esposos emprendedores apasionados por el mundo de la moda
           </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:mx-12">
           <div class="relative mx-auto mt-8 rounded-lg shadow max-w-sm p-10 bg-gray-100 text-gray-700 leading-snug flex flex-col justify-between">
             <div class="-ml-4">
               <svg
-                class="w-8 opacity-25 text-indigo-500"
+                class="w-8  text-black"
                 xmlns="http://www.w3.org/2000/svg"
                 shape-rendering="geometricPrecision"
                 text-rendering="geometricPrecision"
@@ -32,28 +32,20 @@ function somos() {
               </svg>
             </div>
             <div class="mt-2">
-              I felt disorganized. Pieces of paper everywhere. I was constantly
-              making new lists, losing old ones, crossing off items and adding
-              new ones. I was forever worried things were slipping and not
-              getting done. My brain was tired
+            Decidimos emprender en el negocio de venta de ropa porque queríamos combinar nuestra pasión por la moda con nuestra visión de tener un negocio propio. Siempre nos ha encantado ayudar a las personas a sentirse seguras y confiadas a través de la ropa que usan.
             </div>
             <div>
               <div class="mx-auto w-full border border-gray-300 my-8"></div>
               <div class="flex items-center">
                 <div>
                   <img
-                    class="w-12 h-12 rounded-full border-2 border-indigo-400"
-                    src="https://avatars2.githubusercontent.com/u/2741?s=64&v=4"
+                    class="w-12 h-12 rounded-full border-2 border-[#0d9488]"
+                    src="../cositas/avatarmen.jpg"
                   />
                 </div>
                 <div class="ml-4">
-                  <div class="font-bold">David H. Hansson</div>
-                  <div class="text-sm text-gray-600 mt-1">
-                    CTO,{" "}
-                    <a href="https://timerse.com/7-steps-to-boost-your-metabolism/">
-                      Boosting Metabolism
-                    </a>
-                  </div>
+                  <div class="font-bold">Alexander Díaz</div>
+                 
                 </div>
               </div>
             </div>
@@ -61,7 +53,7 @@ function somos() {
           <div class="mx-auto mt-8 rounded-lg shadow max-w-sm p-10 bg-gray-100 text-gray-700 leading-snug flex flex-col justify-between">
             <div class="-ml-4">
               <svg
-                class="w-8 opacity-25 text-indigo-500"
+                class="w-8 text-black"
                 xmlns="http://www.w3.org/2000/svg"
                 shape-rendering="geometricPrecision"
                 text-rendering="geometricPrecision"
@@ -75,25 +67,20 @@ function somos() {
               </svg>
             </div>
             <div class="mt-2">
-              I felt disorganized. Pieces of paper everywhere. I was constantly
-              making new lists, losing old ones, crossing off items and adding
-              new ones. I was forever worried things were slipping and not
-              getting done. My brain was tired
+            Siempre he tenido una pasión por la moda y la creatividad. Junto con mi esposo, decidimos embarcarnos en este emocionante viaje emprendedor en el negocio de venta de ropa. Para mí, es increíble poder combinar mi amor por el diseño y la moda.
             </div>
             <div>
               <div class="mx-auto w-full border border-gray-300 my-8"></div>
               <div class="flex items-center">
                 <div>
                   <img
-                    class="w-12 h-12 rounded-full border-2 border-indigo-400"
-                    src="https://avatars0.githubusercontent.com/u/810438?s=100"
+                    class="w-12 h-12 rounded-full border-2 border-[#0d9488]"
+                    src="../cositas/avatargril.png"
                   />
                 </div>
                 <div class="ml-4">
-                  <div class="font-bold">Dan Abramov</div>
-                  <div class="text-sm text-gray-600 mt-1">
-                    Creator, <a href="https://swift.org/">Java</a>
-                  </div>
+                  <div class="font-bold">Johana Rojas</div>
+                  
                 </div>
               </div>
             </div>

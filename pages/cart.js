@@ -16,40 +16,7 @@ const cart = () => {
         {/* Heading and paragraph end */}
 
         {/* Cart content start */}
-        <div className="flex flex-col lg:flex-row gap-12 py-10">
-          {/* Cart items start */}
-          <div className=' flex-[2]'>
-            <div className='text-lg font-bold'>Productos</div>
-            <CartItem />
-            <CartItem />
-            <CartItem />
-          </div>
-          {/* Cart items end */}
-
-          {/* SUmmary start */}
-          <div className=' flex-[1]'>
-            <div className='text-lg font-bold'>Resumen</div>
-
-            <div className='p-5 my-5 bg-black/[0.05] rounded-xl'>
-              <div className='flex justify-between'>
-                <div className='uppercase text-md md:text-lg font-medium text-black'>Subtotal</div>
-                <div className='text-md md:text-lg font-medium text-black'>$ 169.900</div>
-              </div>
-              <div className='text-sm md:text-md py-5 border-t mt-5'>
-                El subtotal refleja el precio total de
-                su pedido, impuestos y aranceles incluidos,
-                antes de cualquier descuento aplicable. No incluye
-                no incluye los gastos de envío ni
-                los gastos de transacción internacional.
-              </div>
-            </div>
-            {/* Button start */}
-            <button className='w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75'>
-              Pago
-            </button>
-            {/* Button end */}
-          </div>
-        </div>
+       
         {/* Cart content end */}
         <div className='flex-[2] flex flex-col items-center pb-[50px] md:mt-14'>
           <Image 

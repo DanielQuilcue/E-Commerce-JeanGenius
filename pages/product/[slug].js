@@ -1,17 +1,31 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Wrapper from '@/components/Wrapper'
 import ProductDetailsCarousel from '@/components/ProductDetailsCarousel'
 import { IoMdHeartEmpty } from "react-icons/io";
 import RelatedProducts from '@/components/RelatedProducts';
-
+import Popap from '@/components/Popap';
 const ProductDetails = () => {
+
+  // Mostrar popap de talla
+  const [mostrarPopup, setMostrarPopup] = useState(false);
+
+  const cerrarPopup = () => {
+    setMostrarPopup(false);
+  };
+
   return (
+    
     <div className='w-full md:py-20'>
+      {mostrarPopup && (
+        <Popap onClose={cerrarPopup} />
+      )}
       <Wrapper>
+     
         <div className='flex flex-col lg:flex-row md:px-10 gap-[50px] lg:gap-[100px]'>
           {/* Left column start */}
           <div className='w-full md:w-auto flex-[1.5] max-w-[500px] lg:max-w-full mx-auto lg:mx-0'>
             <ProductDetailsCarousel />
+            
           </div>
           {/* Left column end */}
 
@@ -19,19 +33,19 @@ const ProductDetails = () => {
           <div className='flex-[1] py-3'>
             {/* Product Name */}
             <div className='text-[19px] font-semibold mb-2'>
-            JEAN ULTRA SLIM LUPITA TIRO SUPER ALTO T
+            Doll Cargo Militar
             </div>
             {/* Products Subtitle */}
             <div className='text-lg font-semibold mb-5'>
-            Ref: S139910A
+            Ref: 2325
             </div>
 
             {/* Products Price */}
             <div className='text-LG font-semibold'>
-            $ 169.900
+            $ 70.000
             </div>
             <div className='text-sm font-medium text-black/[0.5]'>
-            NOMBRE FABRICANTE: STF GROUP S.A – NIT. 805003626-4
+            NOMBRE FABRICANTE: Doll
             </div>
             <div className='text-md font-medium text-black/[0.5] mb-20'>
               {}
@@ -43,7 +57,7 @@ const ProductDetails = () => {
                 <div className='text-md font-semibold'>
                   Elegir la talla
                 </div>
-                <div className="text-md font-medium text-black/[0.5] cursor-pointer">
+                <div className="text-md font-medium text-black/[0.5] cursor-pointer underline decoration-gray-400 hover:decoration-black" onClick={() => setMostrarPopup(true)}>
                   Guía de talla
                 </div>
               </div>
@@ -52,7 +66,7 @@ const ProductDetails = () => {
             {/* Size start */}
             <div className='grid grid-cols-3 gap-2'>
               <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
-09              
+04              
 </div>
               <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
                 06
@@ -66,12 +80,12 @@ const ProductDetails = () => {
               <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
                 12
               </div>
-              <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
+              {/* <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
                14
               </div>
               <div className='border rounded-md text-center py-3 font-medium cursor-not-allowed bg-black/[0.1] opacity-50'>
                 16
-              </div>
+              </div> */}
             </div>
             <div className='text-red-600 mt-1'>
               Selecionar talla
@@ -94,11 +108,14 @@ const ProductDetails = () => {
 
 
             </div>
+            
           </div>
 
 
           {/* Left column end */}
+    
         </div>
+    
         <RelatedProducts />
       </Wrapper>
     </div>
