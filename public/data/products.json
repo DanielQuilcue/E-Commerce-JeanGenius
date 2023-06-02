@@ -4,18 +4,14 @@
     "name": "Cargo Drill Gris",
     "gender": "Mujer",
     "image": "/products/CargoDrillGris.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70.000
   },
   {
     "id": 2,
     "name": "Cargo Militar",
     "gender": "Mujer",
     "image": "/products/CargoMilitar.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70.000
   },
   {
     "id": 3,

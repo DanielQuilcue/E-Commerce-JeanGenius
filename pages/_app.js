@@ -4,6 +4,7 @@ import Head from 'next/head'
 // Componentes
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import WhatsAppButton from '@/components/WhatsAppButton'
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -31,6 +32,7 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <Header />
+      <WhatsAppButton />
       <Component {...pageProps} />
       <Footer />
     </>

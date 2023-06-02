@@ -26,6 +26,10 @@ export default function RelatedProducts() {
         },
       },
     ],
+    arrows: true,
+    centerMode: true,
+    centerPadding: '40px',
+    marginLeft: '20px'
   };
 
   return (
@@ -43,3 +47,5 @@ export default function RelatedProducts() {
     </div>
   );
 }
+
+
