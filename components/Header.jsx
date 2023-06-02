@@ -43,7 +43,7 @@ const Header = () => {
       <Wrapper className='h-[60px] flex justify-between items-center'>
         <Link href="/">
           {/* <img src="/cositas/tendedero.png" className='w-[40px] md:w-[60px]' /> */}
-          <img src="/cositas/logo.png" className='w-[40px] md:w-[60px]' />
+          <img src="/cositas/marca.png" className='w-[40px] md:w-[60px]' />
         </Link>
         <Menu
           showCatMenu={setShowCatMenu}
