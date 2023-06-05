@@ -3,259 +3,359 @@
     "id": 1,
     "name": "Cargo Drill Gris",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2334,
     "image": "/products/CargoDrillGris.jpg",
-    "price": 70.000
+    "subimagen" : {
+      "imag1": "/products/CargoDrillGris.jpg",
+      "image2": "/products/CargoDrillGris.jpg",
+      "image3": "/products/CargoDrillGris.jpg"
+    },
+    "price": 60000
   },
   {
     "id": 2,
     "name": "Cargo Militar",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2325,
     "image": "/products/CargoMilitar.jpg",
-    "price": 70.000
+    "price": 70000
   },
   {
     "id": 3,
     "name": "Cargo Rígido",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2305,
     "image": "/products/CargoRígido.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 4,
-    "name": "Cargo Drill",
+    "name": "Cargo Drill Beige",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23015,
     "image": "/products/CargoDrill.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 5,
     "name": "Cargo Rígido",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23092,
     "image": "/products/CargoRígido2.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 6,
-    "name": "Cargo Drill",
+    "name": "Cargo Drill Beíge",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23343,
     "image": "/products/CargoDrill2.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 7,
     "name": "Cargo Rígido",
     "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23052,
     "image": "/products/CargoRígido3.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 8,
     "name": "Skinny Estampado Correa",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2220287,
     "image": "/products/SkinnyEstampadoCorrea.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 65000
   },{
     "id": 9,
-    "name": "Cargo Drill",
+    "name": "Cargo Drill Gris",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23013,
     "image": "/products/CargoDrill4.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   },{
     "id": 10,
     "name": "Skinny Dorado Pedrería",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22230,
     "image": "/products/SkinnyDoradoPedrería.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 65000
   },{
     "id": 11,
-    "name": "Cargo Drill",
+    "name": "Cargo Drill Ocre",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23014,
     "image": "/products/CargoDrill5.jpg",
-    "price": 70000,
-    "originalPrice": 0,
-    "discount": 0
+    "price": 70000
   }
   ,{
     "id": 12,
     "name": "Skinny Negro Rotos",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22231,
     "image": "/products/SkinnyNegroRotos.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 13,
     "name": "Skinny Cargo Correa",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 221882,
     "image": "/products/SkinnyCargoCorrea.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 14,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 221722,
     "image": "/products/Skinny1.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 15,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22152,
     "image": "/products/Skinny2.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 16,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2249,
     "image": "/products/Skinny3.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 17,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22236,
     "image": "/products/Skinny4.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 18,
     "name": "Cargo",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23052,
     "image": "/products/Cargo1.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 19,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2216,
     "image": "/products/Skinny5.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 20,
     "name": "Short",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22100,
     "image": "/products/Short.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 21,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 222172,
     "image": "/products/Skinny6.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 22,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22492,
     "image": "/products/Skinny7.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 23,
     "name": "Skinny",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 222362,
     "image": "/products/Skinny8.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 24,
     "name": "Jeans Licrado",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2275,
     "image": "/products/JeansLicrado.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 25,
     "name": "Jeans Licrado",
+    "gender": "Mujer",
+    "category": "Jeans",
     "image": "/products/JeansLicrado1.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 26,
     "name": "Jeans Licrado",
+    "gender": "Mujer",
+    "category": "Jeans",
     "image": "/products/JeansLicrado2.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 27,
     "name": "Skinny Bordado Pedrería",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 22202,
     "image": "/products/SkinnyBordadoPedrería.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 28,
     "name": "Cargo Rígido",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2309,
     "image": "/products/CargoRígido4.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 29,
-    "name": "Cargo Drill",
+    "name": "Cargo Drill Ocreo",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23344,
     "image": "/products/CargoDrill6.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 30,
     "name": "Cargo Rígido",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2308,
     "image": "/products/CargoRígido5.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 31,
     "name": "Boyfriend Pedrería",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23022,
     "image": "/products/BoyfriendPedrería.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 70000
   },{
     "id": 32,
     "name": "Skinny Chispeado",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 221852,
     "image": "/products/SkinnyChispeado.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 33,
     "name": "Cargo Cuerina",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2311,
     "image": "/products/CargoCuerina.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 34,
     "name": "Cargo Rígido",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23082,
     "image": "/products/CargoRígido6.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 60000
   },{
     "id": 35,
-    "name": "BSkinny Cargo Negro Drill",
+    "name": "Skinny Cargo Negro Drill",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23016,
     "image": "/products/SkinnyCargoNegroDrill.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 65000
   },{
     "id": 36,
     "name": "Boyfriend Rígido",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2310,
     "image": "/products/BoyfriendRígido.jpg",
-    "price": 169900,
-    "originalPrice": 200000,
-    "discount": 40
+    "price": 70000
+  },{
+    "id": 37,
+    "name": "Chaqueta Rock Start Pedrería",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23163,
+    "image": "/products/ChaquetaRock.jpg",
+    "price": 65000
+  },{
+    "id": 38,
+    "name": "Cargo Dril Negro",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23342,
+    "image": "/products/CargoDrilNegro.jpg",
+    "price": 169900
+  },{
+    "id": 39,
+    "name": "Skinny Negro Rotos",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 222342,
+    "image": "/products/SkinnyNegroRotos1.jpg",
+    "price": 65000
+  },{
+    "id": 40,
+    "name": " Chaqueta Perlas",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2316,
+    "image": "/products/ChaquetaPerlas.jpg",
+    "price": 65000
+  },{
+    "id": 41,
+    "name": " Chaqueta Flecos",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23162,
+    "image": "/products/ChaquetaFlecos.jpg",
+    "price": 65000
+  },{
+    "id": 42,
+    "name": "Cargo Cuerina",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 2312,
+    "image": "/products/CargoCuerina1.jpg",
+    "price": 60000
+  },{
+    "id": 43,
+    "name": "Chaqueta Just Love Pedreria",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 23164,
+    "image": "/products/ChaquetaLove.jpg",
+    "price": 65000
+  },{
+    "id": 44,
+    "name": "20029",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 20029,
+    "image": "/products/ChaquetaLove.jpg",
+    "price": 65000
   }
 ]

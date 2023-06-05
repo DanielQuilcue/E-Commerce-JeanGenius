@@ -1,21 +1,37 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import productsData from '../public/data/products.json';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import ProductDetailsCarousel from './ProductDetailsCarousel';
 
-export default function ProductsDama() {
+export default function ProductCards() {
   const router = useRouter();
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [products, setProducts] = useState([]);
+  const [selectedProductId, setSelectedProductId] = useState(null);
 
-  const handleProductClick = (product) => {
-    setSelectedProduct(product);
-    router.push(`/product/${product.id}`);
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await fetch('/api/products');
+        const data = await response.json();
+        setProducts(data);
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  const handleProductClick = (productId) => {
+    setSelectedProductId(productId);
+    localStorage.setItem('selectedProductId', productId); // Guardar el ID en localStorage
+    router.push(`/product/${productId}`);
   };
 
-  // Filtrar los productos por Genero "Mujer"
-  const filteredProducts = productsData.filter(
+  const formatPrice = (price) => {
+    return price.toLocaleString('es-ES');
+  };
+  const filteredProducts = products.filter(
     (product) => product.gender === 'Mujer'
   );
 
@@ -25,20 +41,34 @@ export default function ProductsDama() {
         <div
           key={product.id}
           className="transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
-          onClick={() => handleProductClick(product)}
+          onClick={() => handleProductClick(product.id)}
         >
-          <Image width={500} height={500} src={product.image} alt="Product Image" />
-          <div className="p-4 text-black/[0.9]">
-            <h2 className="text-lg font-medium">{product.name}</h2>
-            <div className="flex items-center text-black/[0.5]">
-              <p className="mr-2 text-lg font-semibold text-[#0d9488]">{`$${product.price}`}</p>
-              <p className="text-base font-medium line-through">{`$${product.originalPrice}`}</p>
-              <p className="ml-auto text-base font-medium text-[#0d9488]">{`${product.discount}%`}</p>
-            </div>
+          <Image
+            width={500}
+            height={500}
+            src={product.image}
+            alt='Product Image'
+          />
+          <div className='p-4 text-black/[0.9]'>
+            <h2 className='text-lg font-medium'>{product.name}</h2>
+            {product.price && (
+              <div className='flex items-center text-black/[0.5]'>
+                <p className='mr-2 text-lg font-semibold text-[#0d9488]'>{`$${formatPrice(product.price)}`}</p>
+                {product.originalPrice && (
+                  <p className='text-base font-medium line-through'>{`$${formatPrice(product.originalPrice)}`}</p>
+                )}
+                {product.discount && (
+                  <p className="ml-auto text-base font-medium text-[#0d9488]">{`${product.discount}%`}</p>
+                )}
+              </div>
+            )}
           </div>
         </div>
       ))}
-      {selectedProduct && <ProductDetailsCarousel product={selectedProduct} />}
+      {selectedProductId && (
+        <ProductDetailsCarousel productId={selectedProductId} />
+      )}
     </div>
   );
 }
+

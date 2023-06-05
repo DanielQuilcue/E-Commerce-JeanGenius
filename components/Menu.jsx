@@ -14,7 +14,7 @@ export const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
   const subMenuData = [
     { id: 1, name: 'Dama', url: '/dama' },
     { id: 2, name: 'Caballero', url: '/caballero' },
-    { id: 3, name: 'Proximamente', doc_count: '' },
+    { id: 3, name: 'Próximamente', doc_count: '' },
   ];
 
   const handleSubMenuToggle = (categoryId) => {
