@@ -297,7 +297,7 @@
     "id": 37,
     "name": "Chaqueta Rock Start Pedrería",
     "gender": "Mujer",
-    "category": "Jeans",
+    "category": "Chaqueta",
     "reference": 23163,
     "image": "/products/ChaquetaRock.jpg",
     "price": 65000
@@ -321,7 +321,7 @@
     "id": 40,
     "name": " Chaqueta Perlas",
     "gender": "Mujer",
-    "category": "Jeans",
+    "category": "Chaqueta",
     "reference": 2316,
     "image": "/products/ChaquetaPerlas.jpg",
     "price": 65000
@@ -329,7 +329,7 @@
     "id": 41,
     "name": " Chaqueta Flecos",
     "gender": "Mujer",
-    "category": "Jeans",
+    "category": "Chaqueta",
     "reference": 23162,
     "image": "/products/ChaquetaFlecos.jpg",
     "price": 65000
@@ -337,7 +337,7 @@
     "id": 42,
     "name": "Cargo Cuerina",
     "gender": "Mujer",
-    "category": "Jeans",
+    "category": "Chaqueta",
     "reference": 2312,
     "image": "/products/CargoCuerina1.jpg",
     "price": 60000
@@ -345,17 +345,25 @@
     "id": 43,
     "name": "Chaqueta Just Love Pedreria",
     "gender": "Mujer",
-    "category": "Jeans",
+    "category": "Chaqueta",
     "reference": 23164,
     "image": "/products/ChaquetaLove.jpg",
     "price": 65000
   },{
     "id": 44,
-    "name": "20029",
+    "name": "Talla Plus",
     "gender": "Mujer",
     "category": "Jeans",
-    "reference": 20029,
-    "image": "/products/ChaquetaLove.jpg",
+    "reference": 60106,
+    "image": "/products/60106.png",
+    "price": 75000
+  },{
+    "id": 45,
+    "name": "Talla Plus",
+    "gender": "Mujer",
+    "category": "Jeans",
+    "reference": 60107,
+    "image": "/products/60107.png",
     "price": 65000
   }
 ]
