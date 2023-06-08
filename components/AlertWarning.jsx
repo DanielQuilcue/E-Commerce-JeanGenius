@@ -11,7 +11,7 @@ export function AlertWarning() {
   }, []);
 
   if (!isVisible) {
-    return null; // Si isVisible es falso, no se muestra el componente
+    return null; 
   }
   return (
     <div className="fixed bottom-11 right-0 mb-4 mr-4 sm:mb-8 sm:mr-8 z-[9999]}" 
